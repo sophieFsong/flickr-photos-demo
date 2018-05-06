@@ -1,0 +1,26 @@
+.flickr-img-item {
+    height: 200px;
+    max-height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 5px 5px;
+}
+.flickr-img-title{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    color: white;
+    font-weight: 600;
+    font-size:14px;
+    min-height: 17px;
+    text-shadow: 0 0 2px #000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.flickr-img {
+    height: 200px;
+    max-height: 200px;
+}
